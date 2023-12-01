@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#noel {
+    width:24px;
+    height: 24px;
+}
+
+#lua {
+    width: 20px;
+    height: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-opcoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 48px;
+}
+
+.textos_destaque {
+    color: #282525;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#caixa_titulo_celeb {
+    width: 235px;
+    height: 72px;
+}
+
+#caixa_texto_celeb {
+    width: 372px;
+    height: 96px;
+}
+
+#img_and_celebdate {
+    /* background-color: violet; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "date_celebrate celebrate1_img";
+}
+
+#date_celebrate {
+    /* background-color: aqua; */
+    width: 372px;
+    height: 288px;
+    grid-area: date_celebrate;
+    margin-top: 185px;
+    margin-left: 218px;
+}
+
+#texto_celebrate {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5D5656;
+}
+
+#celebrate1_img {
+    /* background-color: pink; */
+    margin-top: 72px;
+    width: 450px;
+    height: 450px;
+    grid-area: celebrate1_img;
+}
+
+.botao {
+    margin-top: 60px;
+    background-color: #DC3845;
+    border: none;
+    border-radius: 64px;
+    width: 215px;
+    height: 56px;
+    font-size: 16px;
+    color:white;
+}
+
+#lojinha {
+    /* background-color: pink; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "item1 item2 item3"
+        "item4 item5 ";
+    grid-gap: 40px;
+}
+
+.caixa_itens {
+    width: 200px;
+    height: 247px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 24px 0px #301D1E1A;
+}
+
+.itens{
+    background-color: blueviolet;
+    margin-left: 40px;
+    margin-top: 32px;
+    margin-bottom: 95px;
+    width: 120px;
+    height: 120px;
+}
+
+.posicao_heart {
+    background-color: wheat;
+    /* margin-left: 160px; */
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.heart{
+    height: 14.99px;    
+    width: 16.62px;
+    /* background-color: wheat; */
+}
+
+#item1{
+    grid-area: item1;
+}
+
+#item2{
+    grid-area: item2;
+}
+
+#item3{
+    grid-area: item3;
+}
+
+#item4{
+    grid-area: item4;
+}
+
+#item5{
+    grid-area: item5;
+}
