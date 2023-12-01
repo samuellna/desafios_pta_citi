@@ -38,6 +38,10 @@ body {
     gap: 48px;
 }
 
+/* .main{
+    color: cyan;
+} */
+
 .textos_destaque {
     color: #282525;
     font-weight: 600;
@@ -66,7 +70,7 @@ body {
     width: 372px;
     height: 288px;
     grid-area: date_celebrate;
-    margin-top: 185px;
+    margin-top: 113px;
     margin-left: 218px;
 }
 
@@ -79,7 +83,7 @@ body {
 
 #celebrate1_img {
     /* background-color: pink; */
-    margin-top: 72px;
+    /* margin-top: 72px;  */
     width: 450px;
     height: 450px;
     grid-area: celebrate1_img;
