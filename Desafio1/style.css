@@ -38,10 +38,6 @@ body {
     gap: 48px;
 }
 
-/* .main{
-    color: cyan;
-} */
-
 .textos_destaque {
     color: #282525;
     font-weight: 600;
@@ -108,39 +104,15 @@ body {
     grid-template-areas: 
         "item1 item2 item3"
         "item4 item5 ";
-    grid-gap: 40px;
+    /* grid-gap: 40px; */
 }
 
-.caixa_itens {
+.item {
     width: 200px;
     height: 247px;
-    border-radius: 10px;
     box-shadow: 0px 4px 24px 0px #301D1E1A;
-}
-
-.itens{
-    background-color: blueviolet;
-    margin-left: 40px;
-    margin-top: 32px;
-    margin-bottom: 95px;
-    width: 120px;
-    height: 120px;
-}
-
-.posicao_heart {
-    background-color: wheat;
-    /* margin-left: 160px; */
-    margin-left: 160px;
-    margin-top: 20px;
-    width: 20px;
-    height: 20px;
-
-}
-
-.heart{
-    height: 14.99px;    
-    width: 16.62px;
-    /* background-color: wheat; */
+    border-radius: 12px;
+    margin-top: 33px;
 }
 
 #item1{
