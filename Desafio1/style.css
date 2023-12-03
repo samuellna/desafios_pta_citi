@@ -96,41 +96,20 @@ body {
     color:white;
 }
 
-#lojinha {
-    /* background-color: pink; */
+.loja {
+    height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-        "item1 item2 item3"
-        "item4 item5 ";
-    /* grid-gap: 40px; */
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 247px 247px 247px;
+    gap: 40px;
 }
 
-.item {
+.itens {
+    margin-top: 33px;
+    margin-left: 320px;
     width: 200px;
     height: 247px;
-    box-shadow: 0px 4px 24px 0px #301D1E1A;
     border-radius: 12px;
-    margin-top: 33px;
-}
-
-#item1{
-    grid-area: item1;
-}
-
-#item2{
-    grid-area: item2;
-}
-
-#item3{
-    grid-area: item3;
-}
-
-#item4{
-    grid-area: item4;
-}
-
-#item5{
-    grid-area: item5;
+    box-shadow: 0px 4px 24px 0px #301D1E1A;
 }
