@@ -139,24 +139,31 @@ body {
 .caixa-coracao {
     width: 20px;
     height: 20px;
+    padding-top: 20px;
+    padding-left: 160px;
 }
 
 .caixa-img-item {
-    padding-top: 32px;
-    padding-left: 40px;
+    margin-top: 32px;
+    margin-left: 40px;
     width: 120px;
     height: 120px;
 }
 
 .caixa-preco {
+    width: 100%;
     height: 30px;
-    width: 38px;
-    padding-left: 24px;
+    background-color: red;
+}
 
+.precos {
+    font-weight: 500;
+    size: 20px;
+    color: #282525;
 }
 
 .caixa-descricao {
-    width: 72px;
+    width: 100%;
     height: 21px;
     padding-top: 10px;
     padding-left: 24px;
